@@ -1,0 +1,19 @@
+Gordon Freeman from Half Life (Valve 1998).
+
+** Model has been modified **
+* Mouth interior removed and stitched together
+* Fixed texture on chin slightly
+* Rigged
+
+
+Model Information:
+* title:	Gordon Freeman Half-life 1
+* source:	https://sketchfab.com/3d-models/gordon-freeman-half-life-1-e325b0155441418bbff939e8e7dd97ef
+* author:	ArtEast (https://sketchfab.com/ArtEast)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gordon Freeman Half-life 1" (https://sketchfab.com/3d-models/gordon-freeman-half-life-1-e325b0155441418bbff939e8e7dd97ef) by ArtEast (https://sketchfab.com/ArtEast) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
