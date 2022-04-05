@@ -15,8 +15,8 @@ pub fn build(b: *std.build.Builder) void {
     exe.setTarget(target);
     exe.setBuildMode(mode);
     exe.linkLibC();
-    exe.addIncludeDir(".");
-    exe.addCSourceFile("src/stb.c", &[_][]const u8{"-I."});
+    exe.addIncludeDir("deps");
+    exe.addCSourceFile("deps/stb.c", &[_][]const u8{});
     exe.addCSourceFile("src/maths/avx.c", &[_][]const u8{});
     exe.install();
 
@@ -33,8 +33,8 @@ pub fn build(b: *std.build.Builder) void {
     exe_tests.setTarget(target);
     exe_tests.setBuildMode(mode);
     exe_tests.linkLibC();
-    exe_tests.addIncludeDir(".");
-    exe_tests.addCSourceFile("src/stb.c", &[_][]const u8{"-I."});
+    exe_tests.addIncludeDir("deps");
+    exe_tests.addCSourceFile("deps/stb.c", &[_][]const u8{});
     exe_tests.addCSourceFile("src/maths/avx.c", &[_][]const u8{});
 
     const test_step = b.step("test", "Run unit tests");

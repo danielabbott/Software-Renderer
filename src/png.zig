@@ -1,6 +1,6 @@
 const std = @import("std");
 const c = @cImport({
-    @cInclude("src/stb_image_write.h");
+    @cInclude("stb_image_write.h");
 });
 
 pub fn writePNG(file_path: [*:0]const u8, image: []const u32, w: u32, h: u32) !void {

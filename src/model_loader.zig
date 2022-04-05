@@ -5,7 +5,7 @@ const Texture = scene.Texture;
 const c_allocator = std.heap.c_allocator;
 
 const c = @cImport({
-    @cInclude("src/stb_image.h");
+    @cInclude("stb_image.h");
 });
 
 // 1 mesh split into 2 materials (body & head)
